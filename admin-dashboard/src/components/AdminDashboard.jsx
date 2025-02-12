@@ -269,7 +269,7 @@ const AdminDashboard = () => {
                   <div
                     className={`max-w-[80%] p-3 rounded-2xl ${
                       message.sender === 'user'
-                        ? 'p-2 bg-[#E15D47] text-white rounded-lg hover:bg-opacity-90'
+                        ? 'p-2 bg-[#E15D47] text-white rounded-2xl hover:bg-opacity-90'
                         : 'bg-gray-100'
                     }`}
                   >
